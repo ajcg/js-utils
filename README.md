@@ -7,7 +7,7 @@ JavaScript utilities for firmata/nodejs.
     
 ##### Example:
 ```javascript
-const mAvg = require('./movingAverage.js');  // Include the script in your nodejs code
+const mAvg = require('./js-utils/movingAverage.js');  // Include the script in your nodejs code
 
 var tempAverageC = mAvg.Avg(60);             // Return a function to Average over 60 elements
 var avgC = tempAverageC(20.1);               // Return the current average when you pass in the 
@@ -23,7 +23,7 @@ console.log('Temp Average: ' + celsius.toFixed(1) + '\xB0C');
 
 ##### Example:
 ```javascript
-const random = require('./getRandom.js');                  // Include the script in your nodejs code
+const random = require('./js-utils/getRandom.js');                  // Include the script in your nodejs code
 
 console.log('Random number: ' + random.getRandom(1, 10));  // Show a random number between 
                                                            //  1 and 10 (inclusive)
