@@ -16,4 +16,17 @@ var avgC = tempAverageC(20.1);               // Return the current average when 
 console.log('Temp Average: ' + celsius.toFixed(1) + '\xB0C');
 ```
 ###### Outputs to the console: 
-Temp Average: 20.1°C
+```Temp Average: 20.1°C```
+
+### Get Random - getRandom.js
+    Return a random number between min and max
+
+##### Example:
+```javascript
+const random = require('./getRandom.js');                  // Include the script in your nodejs code
+
+console.log('Random number: ' + random.getRandom(1, 10));  // Show a random number between 
+                                                           //  1 and 10 (inclusive)
+```
+###### Outputs to the console:
+```Random number: 3```
