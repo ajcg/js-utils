@@ -13,7 +13,7 @@ var tempAverageC = mAvg.Avg(60);             // Return a function to Average ove
 var avgC = tempAverageC(20.1);               // Return the current average when you pass in the 
                                              //  next value to average
 
-console.log('Temp Average: ' + celsius.toFixed(1) + '\xB0C');
+console.log('Temp Average: ' + avgC.toFixed(1) + '\xB0C');
 ```
 ###### Outputs to the console: 
 ```Temp Average: 20.1°C```
